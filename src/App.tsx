@@ -1,10 +1,13 @@
 import React from "react";
+import Heading from "./heading";
 import TodoClass from "./TodoClass";
 
 function App() {
   return (
-    <div className="m-4 ">
-      <TodoClass name="alpha" />
+    <div className="">
+      <Heading />
+      <div className="my-10"></div>
+      <TodoClass />
     </div>
   );
 }
